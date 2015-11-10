@@ -23,4 +23,10 @@ describe("FizzBuzz", function() {
 			expect(fizzBuzz.play(15)).toEqual('fizzbuzz');
 		});
 	});
+
+	describe('all other numbers', function() {
+		it('7 for 7', function() {
+			expect(fizzBuzz.play(7)).toEqual(7);
+		});
+	});
 });
